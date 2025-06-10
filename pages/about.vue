@@ -1,6 +1,9 @@
 <template>
   <div style="padding: 30px 10px; border: 1px solid lightgray;">
     <h1>О компании</h1>
+
+    <div class="test-block"></div>
+
     <Splide style="margin-top: 50px; width: 500px">
       <SplideSlide
         v-for="item in sliderItems"
@@ -13,6 +16,8 @@
 </template>
 
 <script setup>
+import '@/assets/css/test.css'
+
 const sliderItems = [
   'https://api.kip-group.com/api/main/image/exact/600/99999?imagePath=/upload/iblock/0c0/mn622jwlsf44xp28bnwwervtkcrfv1gg.png',
   'https://api.kip-group.com/api/main/image/exact/600/99999?imagePath=/upload/iblock/de1/3lgo0gi2czqw14h6nqn8tb3xizkw9ply.png',

@@ -1,0 +1,8 @@
+.test-block {
+    margin: 50px 0;
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid red;
+    background: yellow;
+}

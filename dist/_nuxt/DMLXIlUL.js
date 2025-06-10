@@ -1,0 +1,1 @@
+import{_ as r,c as t,a as o,o as n}from"./Cx9Jg3_j.js";const s={},l={style:{padding:"30px 10px",border:"1px solid lightgray"}};function a(d,e){return n(),t("div",l,e[0]||(e[0]=[o("h1",null,"Главная",-1),o("p",null,"Hello World!",-1)]))}const i=r(s,[["render",a]]);export{i as default};
